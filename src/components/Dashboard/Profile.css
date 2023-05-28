@@ -1,0 +1,102 @@
+.imgcontainer {
+    margin: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: left;
+    height: 50vh;
+    width: 40%;
+    display: flex;
+}
+
+.userpic {
+    height: 50vh;
+    width: 100%;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+}
+
+.line {
+    color: black;
+    height: 10px;
+}
+
+.detaildiv {
+    text-align: center;
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 60%;
+    box-shadow: 0 0 10px grey;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f {
+    margin: 1px;
+}
+
+.f1 {
+    margin-top: 2px;
+}
+
+.f2 {
+    margin-bottom: 2px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+.remaininginfo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.k1 {
+    box-shadow: 0 0 10px grey;
+    margin: 20px;
+    padding-top: 30px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.editimg {
+    width: 8%;
+    height: 8%;
+    margin-bottom: 220px;
+    margin-left: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+.p1 {
+    width: 30%;
+    margin-left: 2%;
+}
+
+.postimg {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

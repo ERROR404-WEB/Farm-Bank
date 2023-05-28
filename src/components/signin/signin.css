@@ -1,0 +1,336 @@
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    scroll-behavior: smooth;
+    
+    font-family: 'Tillana', cursive;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Silkscreen&family=Tillana&display=swap');
+  
+  .screen1{
+    /* background: url(./images/bg5.jpg); */
+    height:100vh;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 10px black;
+  } 
+   /* screen1 navbar */
+   .bgg{
+    background-image:url("./images/bgsign333.jpg");
+    background-size:cover;
+   }
+  .navlogo{
+    margin-left: 20px;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+  }
+  
+  .navbar{
+    z-index: 999;
+    overflow: hidden;
+    
+    font-family: 'Tillana', cursive;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.084);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+  }
+  .navtext{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px white;
+    transition:  0.5s;
+  }
+ 
+  .absolute{
+    position: absolute;
+  }
+  .logobig{
+    width: 100px;
+  }
+  
+  /* carousel */
+  
+  .center{
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+   margin-left: 60%;
+  
+   margin-top:5%;
+  
+  }
+  @keyframes zigzig{
+  
+    40%{
+      transform: scale(1.05);
+      text-shadow: 0px 0px 20px white;
+    }
+  
+  }
+  
+  
+  
+  /* screen1 text  */
+  
+  
+  .maintext{
+    animation: 3s infinite zigzig;
+    position: absolute;
+    margin-top:35% ;
+    margin-left:37% ;
+    color:white;
+    text-shadow: 0px 0px 10px white;
+    font-family: 'Kaushan Script', cursive;
+  }
+  
+  
+  /* screen1 about */
+  
+
+  
+  /* cards */
+  
+  
+  
+  .slide1{
+    text-align: center;
+    margin: 50px 130px 100px 130px;
+  }
+  .card{
+    box-shadow: 0px 0px 10px #82f0ffbe ;
+    animation: gloww 2s infinite;
+    display: inline-flex;
+    margin:20px 40px;
+    text-align:center;
+  
+  }
+  
+  @keyframes gloww{
+    20%{
+      box-shadow: 0px 0px 10px #595cff8f ;
+    }
+    50%{
+      box-shadow: 0px 0px 10px #ff59a98f ;
+    }
+  }
+  .services{
+  
+    margin-top: 50px;
+    /* animation: glowwtext 2s infinite; */
+   background-clip: text;
+   color:rgb(88, 152, 255);
+   padding: 0px 10px 25px 10px;
+   border-bottom: 2px solid #0073ff;
+   border-radius:6px;
+   border: size 10px;
+   font-family: 'Kaushan Script', cursive;
+   width:300px;
+   
+  margin-left: 37%;
+  
+  }
+  .servicestextt{
+    margin-top:30px;
+    font-family: 'Kaushan Script', cursive;
+    color:rgb(177, 88, 255);
+  }
+  
+  @keyframes glowwtext{
+    20%{
+      text-shadow: 0px 0px 10px #595cff8f ;
+    }
+    50%{
+      text-shadow: 0px 0px 10px #ff59a98f ;
+    }
+  }
+  
+  /* helpline contact  */
+  #help{
+    height: 100vh;
+  }
+  .help{
+    /* background: url(./images/bg4.png); */
+    height: 100vh;
+    background-size: cover;
+    margin-top:10%;
+  
+  }
+  .helphead{
+   margin-top:100px;
+    font-family: 'Kaushan Script', cursive;
+  }
+  .helptext{
+    padding:50px 10px 30px 10px;
+    color:rgb(255, 22, 61);
+    display:inline-block;
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 60, 167);
+    border-radius:6px;
+    border: size 10px;
+  }
+  
+  /* form  */
+  
+  .formcen{
+    display: block;
+    margin: 20px;
+  }
+  .footer{
+    padding: 10px;
+    background-color: rgb(7, 4, 27);
+    color: white;
+    height: 40px;
+    text-shadow: 0px 0px 10px white;
+  }
+  
+  
+  /* main logo  */
+  
+  .a{
+    margin-left:36%;
+    margin-top:7%;
+    animation: glowww 2s infinite;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+  }
+  @keyframes glowww{
+      20%{
+        transform: scale(1.1);
+        filter: drop-shadow(0px 0px 15px rgb(255, 255, 255));
+      }
+  }
+  
+  /* main logo button  */
+  
+  .getting{
+    text-align:center;
+    margin-top: 11%;
+  }
+  .getbtn{
+    animation: glowwww 3s infinite;
+    padding: 10px 15px 10px 15px;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.372);
+    font-family: 'Tillana', cursive;
+    outline: none;
+    border-radius: 10px;
+    border:none;
+    transition: 0.3s all ease-in-out;
+      text-shadow: 0px 0px 10px rgb(255, 255, 255);
+      box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  }
+  .getbtn:hover{
+    background:rgba(255, 255, 255, 0.477);
+    color:black;
+  
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    border:0.1px solid black;
+  }
+  @keyframes glowwww{
+    40%{
+      transform: translateY(20px);
+    }
+  }
+  
+  /* hovereffect */
+  .hh{
+    transition: 0.5s all ease-in-out;
+  }
+  .hh:hover{
+    transform: scale(1.05);
+  }
+  
+  /* sticky  */
+  
+  
+  #sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* signin  */
+  
+  @keyframes animation1 {
+    0%{
+      margin-right: 0%;
+      margin-left: 50%;
+    }
+    100%{
+      margin-right: 50%;
+      margin-left: 0%;
+    }
+  }
+  .Animations_1{
+    animation-name: animation1;
+    animation-duration: 0.5s;
+    background:url(./images/bgsign3.jpg);
+    background-size:cover ;
+    box-shadow: 0px 0px 10px rgba(255, 73, 73, 0.368);
+    
+  }
+  @keyframes animation2 {
+    0%{
+      margin-left:0%;
+      margin-right: 50%;
+    }
+    100%{
+      margin-left: 50%;
+      margin-right: 0%;
+    }
+  }
+  .Animations_2{
+    animation-name: animation2;
+    animation-duration: 0.5s;
+    background:url(./images/bgsign3.jpg);
+    background-size:cover ;
+    box-shadow: 0px 0px 10px rgba(255, 73, 73, 0.368);
+  }
+  .outer_div{
+   
+    animation: gloww 2s infinite;
+    border-radius:10px;
+    box-shadow: #00000043 0px 0px 10px;
+  }
+  .inputt{
+  
+    background-color: none;
+    background: none;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+  border-color: black;
+  border-width: 0.1px;
+  margin: 20px 20px 30px 20px;
+    outline: none;
+  
+  }
+  .centerr{
+    padding: 10px 80px 10px 80px;
+  }
+  .confirmbtn{
+    
+    width: 20%;
+    border:1px solid black;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .innerdivbg{
+    background:url(./images/bgsign33.jpg);
+    background-size:cover ;
+    box-shadow: 0px 0px 10px rgba(255, 73, 73, 0.368);
+  }
+  @keyframes animation3 {
+    0%{
+      width:"0%";
+    }
+    100%{
+      width:"50%"
+    }
+  }
+  .Animation3{
+    animation-name: animation3;
+    animation-duration: 0.5s;
+  }

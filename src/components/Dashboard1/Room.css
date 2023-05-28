@@ -1,0 +1,25 @@
+.room {
+    display: flex;
+    height: 100vh;
+    margin-left: 3em;
+}
+.room figure {
+    margin: 3em;
+    padding: 2em;
+    border-radius: 1em ;
+    box-shadow: 0 0 5px rgba(43, 122, 11, .75);
+    border: 1px solid rgba(43,122,11,0.085);
+    transition-duration: 1s;
+}
+.room figure:hover {
+    box-shadow: none;
+    border: 1px solid rgba(43, 122, 11,1);
+    cursor: pointer;
+}
+.room figcaption h1 {
+    color : #2B7A0B;
+}
+.room svg {
+    width: 30rem;
+    height: 30rem;
+}

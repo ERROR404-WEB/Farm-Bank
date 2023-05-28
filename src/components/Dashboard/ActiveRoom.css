@@ -1,0 +1,22 @@
+/* 2B7A0B */
+/* #7DCE13 */
+
+.head{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.rooms{
+    margin-right: 8em;
+    margin-bottom: 2rem;
+    padding: 2em 4rem;
+    border-radius: 1em ;
+    box-shadow: 0 0 5px rgba(43, 122, 11, .75);
+    border: 1px solid rgba(43,122,11,0.085);
+    transition-duration: 1s;
+}
+.rooms:hover {
+    box-shadow: none;
+    border: 1px solid rgba(43, 122, 11,1);
+    cursor: pointer;
+}

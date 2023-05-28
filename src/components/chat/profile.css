@@ -1,0 +1,239 @@
+.bodydiv{
+    
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight:100;
+    
+}
+.imgcontainer {
+    margin: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius:10px;
+    text-align: left;
+    height: 50vh;
+    width: 40%;
+    display: flex;
+    background-color: black;
+}
+
+.userpic {
+    height: 50vh;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.bodydiv {
+    background-image:radial-gradient(white,rgba(165, 255, 165, 0.352));
+}
+
+.line {
+    color: black;
+    height: 10px;
+}
+.headbox{
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+    background-image:radial-gradient(white,rgba(0, 255, 162, 0.589));
+    height: 50px;
+   
+}
+.headingg{
+    padding-top:10px;
+    color: rgb(0, 0, 0);
+}
+
+.detaildiv {
+    text-align: center;
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(51, 45, 45, 0.356);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+.remaininginfo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin:40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.386);
+    text-align: center;
+    height: 200px;
+}
+.k1 {
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.386);
+    /* margin: 20px; */
+   
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    height: 200px;
+}
+
+.editimg {
+    width: 8%;
+    height: 8%;
+    margin-bottom: 220px;
+    margin-left: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+.p1 {
+    width: 30%;
+    margin-left: 2%;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 0px 20px 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.137);
+    
+}
+
+.postimg {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.history {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.h {
+    width: 100%;
+    box-shadow: 0 0 5px grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.his1 {
+    width: 100%;
+    box-shadow: 0 0 5px grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.historydiv {
+    background-color: aliceblue;
+}
+
+.roomhistory {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.r {
+    width: 30%;
+    box-shadow: 0 0 5px grey;
+    border-radius: 5px solid;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.editform {
+    text-align: center;
+    margin: 10px;
+    width: fit-content;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: aliceblue;
+}
+
+.editdivmain {
+    display: flex;
+}
+
+.edit1 {
+    width: 45%;
+}
+
+.edit2 {
+    width: auto;
+}
+
+.postpic {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    align-content: center;
+}
+.inpu{
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.272);
+}
+.postdesc {
+    border: 0.1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 0 7px rgba(128, 128, 128, 0.532);
+}
+
+.addpost {
+    margin: 20px;
+    height: fit-content;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.532);
+}
+.btnn{
+    margin-left: 10px;
+    background-color: none;
+    border: 0.1px solid black;
+    border-radius:10px;
+    padding: 10px;
+    box-shadow: 0 0 7px rgba(128, 128, 128, 0.532);
+}
+.p1 img{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.489);
+}

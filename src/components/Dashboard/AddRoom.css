@@ -1,0 +1,19 @@
+/* 2B7A0B */
+/* #7DCE13 */
+.ant-btn {
+    background-color: #2B7A0B !important;
+    border: 1px solid #2B7A0B !important;
+}
+
+.ant-btn:hover{
+    background-color: #7DCE13 !important;
+}
+
+.head{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.ant-input:focus, .ant-input:hover {
+    border: 1px solid #2B7A0B !important;
+}
